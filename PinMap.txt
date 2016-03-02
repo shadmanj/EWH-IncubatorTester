@@ -1,0 +1,26 @@
+ARDUINO PIN MAP
+
+DIGITAL
+---------------------------
+2:	SOUND	INPUT 	Envelope signal
+3:	SOUND 	LED 	Low sound levels
+4:	SOUND 	LED 	High sound levels
+5:	STERL 	INPUT 	Temperature input (DS18S20)
+6:	STERL 	OUTPUT 	LCD Screen
+7:
+8:
+9: 	TEMP 	OUTPUT 	Heating pad pin
+10:
+11:
+12: STERL 	LED 	Default LED
+13:	SOUND 	LED 	Indicates board data stream status
+---------------------------
+
+ANALOG
+---------------------------
+A0:	SOUND 	INPUT 	Gate signal
+A1:	STERL 	INPUT 	pH meter input
+A2:
+A3:
+A4:
+A5:	
