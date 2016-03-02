@@ -7,7 +7,7 @@ DIGITAL
 4:	SOUND 	LED 	High sound levels
 5:	STERL 	INPUT 	Temperature input (DS18S20)
 6:	STERL 	OUTPUT 	LCD Screen
-7:
+7: 	TEMP 	OUTPUT 	Reads temp data
 8:
 9: 	TEMP 	OUTPUT 	Heating pad pin
 10:

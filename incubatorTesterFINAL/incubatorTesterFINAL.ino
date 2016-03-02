@@ -6,9 +6,9 @@
 #define PIN_ANALOG A0 //ANALOG PIN, gate signal
 
 //TEMP HUMIDITY GLOBAL VARIABLES
-#define transistorPin = 9;
+#define transistorPin 9
 #include <dht.h>
-#define DHT22_DATA_PIN 2
+#define DHT22_DATA_PIN 7
 dht DHT;
 
 //STERILIZATION GLOBAL VARIABLES
@@ -60,7 +60,7 @@ void setup(){
 void loop(){
   SoundAnalyzer();  //SOUND
   TempHumidity();   //TEMP HUMIDITY
-  Sterilization();  //STERILIZATION
+  Sterilizaton();  //STERILIZATION
 }
 
 /**=============================SOUND TEAM=================================**/
@@ -141,7 +141,7 @@ void TempHumidity() {
 
 /**=============================STERILIZATION=================================**/
 
-void Sterilizaton(void)
+void Sterilizaton()
 {
   
   static unsigned long samplingTime = millis();
